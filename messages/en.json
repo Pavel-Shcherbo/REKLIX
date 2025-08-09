@@ -1,0 +1,476 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "marketing": "Marketing",
+    "engineering": "Engineering",
+    "fullStack": "Full-Stack",
+    "cases": "Cases",
+    "process": "Process",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get Quote"
+  },
+  "home": {
+    "hero": {
+      "title": "Creating digital businesses",
+      "titleAccent": "from product to traffic",
+      "subtitle": "REKLIX full-cycle agency — your reliable partner in launching and developing online business with transparent processes and measurable results",
+      "cta": "Discuss project",
+      "secondaryCta": "View cases"
+    },
+    "stats": {
+      "projects": "Projects",
+      "clients": "Clients",
+      "years": "Years of experience",
+      "satisfaction": "Satisfied clients"
+    },
+    "services": {
+      "title": "Our services",
+      "subtitle": "Comprehensive solutions for your digital business",
+      "marketing": {
+        "title": "Marketing",
+        "description": "SEO, PPC, SMM, content marketing and analytics to attract targeted traffic"
+      },
+      "engineering": {
+        "title": "Engineering",
+        "description": "Development of websites, web applications, integrations and AI modules on modern stack"
+      },
+      "fullstack": {
+        "title": "Full-stack",
+        "description": "Full cycle of digital business creation from research to launch and support"
+      },
+      "ai": {
+        "title": "AI modules",
+        "description": "Artificial intelligence integration for business process automation"
+      }
+    },
+    "benefits": {
+      "title": "Why choose us",
+      "subtitle": "Advantages of working with REKLIX",
+      "growth": {
+        "title": "Business growth",
+        "description": "Increase conversion and profit using data-driven approach"
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "High standards of development and testing at all stages"
+      },
+      "speed": {
+        "title": "Speed",
+        "description": "Quick project start in 4-6 weeks with clear deadlines"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Technical support and project development after launch"
+      }
+    },
+    "testimonials": {
+      "title": "Client testimonials",
+      "subtitle": "What our clients say about us",
+      "first": {
+        "text": "REKLIX helped us increase conversion by 300% in 3 months. Professional team with excellent business understanding."
+      },
+      "second": {
+        "text": "Excellent work on our e-commerce platform. The team delivered on time and exceeded our expectations with innovative solutions."
+      },
+      "third": {
+        "text": "Thanks to REKLIX we launched a successful startup. From idea to implementation — everything was done at the highest level."
+      }
+    },
+    "cta": {
+      "title": "Ready to start a project?",
+      "subtitle": "Leave a request and we will contact you within 24 hours",
+      "button": "Discuss project"
+    },
+    "cases": {
+      "title": "Our Cases",
+      "subtitle": "Results we're proud of",
+      "viewCase": "View Case",
+      "allCases": "All Cases"
+    },
+    "process": {
+      "title": "How We Work",
+      "step1": {
+        "title": "Brief",
+        "description": "We study your business and goals"
+      },
+      "step2": {
+        "title": "Strategy",
+        "description": "We develop a plan to achieve results"
+      },
+      "step3": {
+        "title": "Implementation",
+        "description": "We create the product according to specifications"
+      },
+      "step4": {
+        "title": "Traffic",
+        "description": "We launch advertising campaigns and attract audience"
+      },
+      "step5": {
+        "title": "Support",
+        "description": "We provide technical support and development"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    },
+    "contact": {
+      "title": "Ready to start?",
+      "subtitle": "Leave a request and we will contact you within 24 hours",
+      "hero": {
+        "title": "Get In Touch",
+        "subtitle": "Ready to transform your business? Let's discuss your project and create something amazing together."
+      },
+      "info": {
+        "email": {
+          "title": "Email Us",
+          "description": "Send us a message anytime"
+        },
+        "phone": {
+          "title": "Call Us",
+          "description": "Mon-Fri 9:00-18:00 MSK"
+        },
+        "telegram": {
+          "title": "Telegram",
+          "description": "Quick response guaranteed"
+        },
+        "hours": {
+          "title": "Working Hours",
+          "value": "Mon-Fri 9:00-18:00 MSK",
+          "description": "We're here to help"
+        },
+        "title": "Why Work With Us?",
+        "response": {
+          "title": "Quick Response",
+          "description": "We understand that time is crucial for your business. Here's our process:",
+          "step1": "Initial response within 2 hours",
+          "step2": "Detailed proposal within 24 hours",
+          "step3": "Project kickoff within 48 hours"
+        },
+        "meeting": {
+          "title": "Free Consultation",
+          "description": "Schedule a free 30-minute consultation to discuss your project requirements and get expert advice.",
+          "cta": "Book a Meeting"
+        },
+        "global": {
+          "title": "Global Reach",
+          "description": "We work with clients worldwide, providing localized solutions and support in multiple time zones.",
+          "coverage": "Worldwide Coverage"
+        }
+      },
+      "form": {
+        "title": "Start Your Project",
+        "subtitle": "Tell us about your project and we'll get back to you with a detailed proposal.",
+        "name": "Full Name",
+        "namePlaceholder": "Enter your full name",
+        "email": "Email Address",
+        "emailPlaceholder": "Enter your email address",
+        "phone": "Phone Number",
+        "phonePlaceholder": "Enter your phone number",
+        "company": "Company Name",
+        "companyPlaceholder": "Enter your company name",
+        "service": "Service Needed",
+        "selectService": "Select a service",
+        "services": {
+          "marketing": "Digital Marketing",
+          "engineering": "Software Engineering",
+          "fullstack": "Full-Stack Development",
+          "consultation": "Business Consultation",
+          "other": "Other"
+        },
+        "budget": "Project Budget",
+        "selectBudget": "Select budget range",
+        "budgets": {
+          "under10k": "Under $10,000",
+          "10k25k": "$10,000 - $25,000",
+          "25k50k": "$25,000 - $50,000",
+          "50k100k": "$50,000 - $100,000",
+          "over100k": "Over $100,000",
+          "discuss": "Let's discuss"
+        },
+        "timeline": "Project Timeline",
+        "selectTimeline": "Select timeline",
+        "timelines": {
+          "asap": "ASAP",
+          "1month": "Within 1 month",
+          "2to3months": "2-3 months",
+          "3to6months": "3-6 months",
+          "flexible": "Flexible"
+        },
+        "message": "Project Details",
+        "messagePlaceholder": "Tell us about your project, goals, and any specific requirements...",
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Thank you! We'll get back to you within 24 hours.",
+        "error": "Something went wrong. Please try again or contact us directly."
+      }
+    }
+  },
+  "form": {
+    "name": "Name",
+    "contact": "Telegram or Email",
+    "service": "Service of Interest",
+    "budget": "Project Budget",
+    "message": "Additional Information",
+    "submit": "Submit Request",
+    "sending": "Sending...",
+    "success": "Request sent!",
+    "error": "Sending error. Please try again."
+  },
+  "footer": {
+    "description": "Full-cycle agency for creating digital businesses",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal Information",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "copyright": "© 2024 REKLIX. All rights reserved."
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive digital solutions to grow your business"
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "description": "Comprehensive marketing solutions to attract and convert your target audience",
+      "features": {
+        "seo": "SEO optimization and promotion",
+        "ppc": "PPC advertising (Google Ads, Yandex.Direct)",
+        "social": "Social media marketing",
+        "content": "Content marketing and copywriting",
+        "analytics": "Analytics and conversion optimization"
+      }
+    },
+    "engineering": {
+      "title": "Software Engineering",
+      "description": "Modern web development and technical solutions for your business",
+      "features": {
+        "frontend": "Frontend development (React, Vue, Angular)",
+        "backend": "Backend development (Node.js, Python, PHP)",
+        "mobile": "Mobile applications (React Native, Flutter)",
+        "devops": "DevOps and cloud infrastructure",
+        "testing": "Quality assurance and testing"
+      }
+    },
+    "fullstack": {
+      "title": "Full-Stack Solutions",
+      "description": "Complete digital business development from idea to launch",
+      "features": {
+        "consultation": "Business analysis and consultation",
+        "architecture": "Technical architecture design",
+        "development": "Full-cycle development",
+        "optimization": "Performance optimization",
+        "support": "Ongoing support and maintenance"
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Our Services",
+      "subtitle": "Professional approach and proven results",
+      "growth": {
+        "title": "Business Growth",
+        "description": "Measurable results and ROI increase"
+      },
+      "quality": {
+        "title": "High Quality",
+        "description": "Modern technologies and best practices"
+      },
+      "speed": {
+        "title": "Fast Delivery",
+        "description": "Efficient processes and timely delivery"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Continuous support and maintenance"
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Contact us today and let's discuss how we can help your business grow",
+      "button": "Get Started"
+    },
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "hero": {
+      "title": "About REKLIX",
+      "subtitle": "We are a team of passionate professionals creating digital solutions that drive business growth and innovation"
+    },
+    "stats": {
+      "projects": "Completed Projects",
+      "years": "Years of Experience",
+      "clients": "Happy Clients",
+      "satisfaction": "Client Satisfaction"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "REKLIX was founded in 2021 with a simple mission: to help businesses thrive in the digital world. What started as a small team of developers and marketers has grown into a full-service digital agency.",
+      "paragraph2": "We believe that every business deserves access to cutting-edge technology and marketing strategies. Our approach combines technical expertise with deep business understanding to deliver solutions that not only look great but also drive real results.",
+      "paragraph3": "Today, we're proud to have helped over 25 businesses transform their digital presence and achieve measurable growth. From startups to established enterprises, we bring the same level of dedication and innovation to every project."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay ahead of technology trends and continuously explore new ways to solve complex business challenges."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We maintain the highest standards in everything we deliver, from code quality to user experience design."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We work as an extension of your team, building long-term relationships based on trust and mutual success."
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "description": "We optimize our processes to deliver maximum value in minimum time without compromising on quality."
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our company's growth",
+      "founded": {
+        "title": "Company Founded",
+        "description": "REKLIX was established with a vision to bridge the gap between technology and business success."
+      },
+      "growth": {
+        "title": "Rapid Growth",
+        "description": "Expanded our team and service offerings, completing our first major enterprise projects."
+      },
+      "expansion": {
+        "title": "Service Expansion",
+        "description": "Added AI integration and advanced analytics capabilities to our service portfolio."
+      },
+      "innovation": {
+        "title": "Innovation Focus",
+        "description": "Launched our innovation lab and began developing proprietary tools for client success."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The talented professionals behind REKLIX's success",
+      "ceo": {
+        "position": "CEO & Founder",
+        "bio": "Visionary leader with 10+ years in digital business development and strategic planning."
+      },
+      "cto": {
+        "position": "CTO & Co-Founder",
+        "bio": "Technical expert specializing in scalable architecture and modern development practices."
+      },
+      "lead": {
+        "position": "Lead Developer",
+        "bio": "Full-stack developer with expertise in React, Node.js, and cloud infrastructure."
+      },
+      "designer": {
+        "position": "Lead Designer",
+        "bio": "Creative professional focused on user experience and conversion-driven design."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with innovative digital solutions that drive growth, enhance user experiences, and create lasting competitive advantages in the digital marketplace.",
+      "global": {
+        "title": "Global Reach",
+        "description": "Serving clients worldwide with localized expertise"
+      },
+      "growth": {
+        "title": "Sustainable Growth",
+        "description": "Building solutions that scale with your business"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Delivering exceptional results in every project"
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Insights & Expertise",
+      "subtitle": "Discover the latest trends, best practices, and insights from our team of digital experts"
+    },
+    "search": {
+      "placeholder": "Search articles..."
+    },
+    "categories": {
+      "all": "All Categories",
+      "strategy": "Business Strategy",
+      "development": "Development",
+      "marketing": "Digital Marketing",
+      "technology": "Technology",
+      "design": "Design"
+    },
+    "featured": {
+      "title": "Featured Articles"
+    },
+    "latest": {
+      "title": "Latest Articles"
+    },
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "readTime": "Reading time: {time}",
+    "share": "Share",
+    "tags": "Tags",
+    "authorBio": "{author} is a passionate expert in digital solutions and business growth strategies.",
+    "followAuthor": "Follow Author",
+    "moreFromAuthor": "More from Author",
+    "relatedPosts": "Related Articles",
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Subscribe to our newsletter and get the latest insights delivered to your inbox",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Thank you for subscribing!",
+      "error": "Failed to subscribe. Please try again."
+    },
+    "notFound": {
+      "title": "Article Not Found",
+      "description": "The article you're looking for doesn't exist or has been moved.",
+      "backToBlog": "Back to Blog"
+    },
+    "posts": {
+      "digitalTransformation": {
+        "title": "Digital Transformation in 2024: A Complete Guide",
+        "excerpt": "Explore the key strategies and technologies driving digital transformation in modern businesses.",
+        "content": "Digital transformation has become more than just a buzzword—it's a necessity for businesses looking to thrive in today's competitive landscape. In 2024, we're seeing unprecedented changes in how companies approach technology, customer experience, and operational efficiency.\n\nThe foundation of successful digital transformation lies in understanding that it's not just about adopting new technologies, but about fundamentally reimagining how your business operates. This involves rethinking processes, culture, and customer interactions.\n\nKey areas to focus on include:\n\n1. **Cloud-First Strategy**: Moving to cloud infrastructure provides scalability, flexibility, and cost-effectiveness that traditional on-premise solutions simply cannot match.\n\n2. **Data-Driven Decision Making**: Implementing robust analytics and business intelligence tools to make informed decisions based on real data rather than intuition.\n\n3. **Customer Experience Optimization**: Using technology to create seamless, personalized experiences across all touchpoints.\n\n4. **Process Automation**: Identifying repetitive tasks and automating them to improve efficiency and reduce human error.\n\n5. **Cybersecurity Integration**: Building security into every aspect of your digital infrastructure from the ground up.\n\nThe companies that succeed in digital transformation are those that view it as an ongoing journey rather than a destination. They continuously adapt, learn, and evolve their digital capabilities to meet changing market demands and customer expectations."
+      },
+      "reactOptimization": {
+        "title": "React Performance Optimization: Advanced Techniques",
+        "excerpt": "Learn advanced techniques to optimize React applications for better performance and user experience.",
+        "content": "React performance optimization is crucial for creating fast, responsive web applications that provide excellent user experiences. As applications grow in complexity, performance bottlenecks can significantly impact user satisfaction and business metrics.\n\nHere are the most effective optimization techniques:\n\n**1. Component Memoization**\nUse React.memo() for functional components and useMemo() for expensive calculations. This prevents unnecessary re-renders when props haven't changed.\n\n**2. Code Splitting**\nImplement lazy loading with React.lazy() and Suspense to split your bundle into smaller chunks, reducing initial load time.\n\n**3. Virtual Scrolling**\nFor large lists, implement virtual scrolling to render only visible items, dramatically improving performance with thousands of items.\n\n**4. State Management Optimization**\nMinimize state updates and use local state when possible. Consider using useReducer for complex state logic.\n\n**5. Bundle Analysis**\nRegularly analyze your bundle size using tools like webpack-bundle-analyzer to identify and eliminate unnecessary dependencies.\n\n**6. Image Optimization**\nImplement lazy loading for images and use modern formats like WebP. Consider using next/image for automatic optimization.\n\n**7. Profiling and Monitoring**\nUse React DevTools Profiler to identify performance bottlenecks and implement monitoring to track real-world performance.\n\nRemember, premature optimization can be counterproductive. Always measure first, then optimize based on actual performance data and user feedback."
+      },
+      "seoTrends": {
+        "title": "SEO Trends 2024: What You Need to Know",
+        "excerpt": "Stay ahead of the curve with the latest SEO trends and algorithm updates that will shape search in 2024.",
+        "content": "Search Engine Optimization continues to evolve rapidly, with 2024 bringing significant changes in how search engines evaluate and rank content. Understanding these trends is crucial for maintaining and improving your search visibility.\n\n**Core Web Vitals and Page Experience**\nGoogle's emphasis on user experience metrics continues to grow. Focus on:\n- Largest Contentful Paint (LCP)\n- First Input Delay (FID)\n- Cumulative Layout Shift (CLS)\n\n**AI and Machine Learning Impact**\nSearch engines are becoming smarter at understanding context and user intent. This means:\n- Focus on topic clusters rather than individual keywords\n- Create comprehensive, authoritative content\n- Optimize for semantic search\n\n**Voice Search Optimization**\nWith the rise of voice assistants, optimize for conversational queries:\n- Target long-tail, question-based keywords\n- Create FAQ sections\n- Focus on local SEO for 'near me' searches\n\n**E-A-T (Expertise, Authoritativeness, Trustworthiness)**\nGoogle places increasing importance on content quality:\n- Showcase author credentials\n- Build high-quality backlinks\n- Maintain accurate, up-to-date information\n\n**Technical SEO Fundamentals**\n- Implement structured data markup\n- Ensure mobile-first indexing compatibility\n- Optimize for Core Web Vitals\n- Maintain clean, crawlable site architecture\n\nThe key to SEO success in 2024 is creating genuinely valuable content that serves user needs while maintaining technical excellence."
+      },
+      "aiIntegration": {
+        "title": "AI Integration in Business: Practical Applications",
+        "excerpt": "Discover how artificial intelligence can transform your business operations and drive growth."
+      },
+      "uxDesign": {
+        "title": "UX Design Principles for Better Conversions",
+        "excerpt": "Learn essential UX design principles that can significantly improve your website's conversion rates."
+      },
+      "cloudInfrastructure": {
+        "title": "Cloud Infrastructure Best Practices Guide",
+        "excerpt": "A comprehensive guide to building scalable and secure cloud infrastructure for modern applications."
+      }
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try Again"
+  }
+}

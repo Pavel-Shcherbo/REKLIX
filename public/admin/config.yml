@@ -1,0 +1,136 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+locale: 'ru'
+i18n:
+  structure: multiple_files
+  locales: [ru, en]
+  default_locale: ru
+
+collections:
+  - name: "pages"
+    label: "Страницы"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string", i18n: true}
+      - {label: "Слаг", name: "slug", widget: "string"}
+      - {label: "Контент", name: "body", widget: "markdown", i18n: true}
+      - {label: "SEO Заголовок", name: "seo_title", widget: "string", i18n: true, required: false}
+      - {label: "SEO Описание", name: "seo_description", widget: "text", i18n: true, required: false}
+      - {label: "Дата создания", name: "date", widget: "datetime"}
+
+  - name: "services"
+    label: "Услуги"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Название", name: "title", widget: "string", i18n: true}
+      - {label: "Слаг", name: "slug", widget: "string"}
+      - {label: "Категория", name: "category", widget: "select", options: ["marketing", "engineering", "full-stack"]}
+      - {label: "Описание", name: "description", widget: "text", i18n: true}
+      - {label: "Преимущества", name: "benefits", widget: "list", i18n: true, fields: [
+          {label: "Заголовок", name: "title", widget: "string"},
+          {label: "Описание", name: "description", widget: "text"},
+          {label: "Иконка", name: "icon", widget: "string"}
+        ]}
+      - {label: "Предложения", name: "offers", widget: "list", i18n: true, fields: [
+          {label: "Название", name: "name", widget: "string"},
+          {label: "Описание", name: "description", widget: "text"}
+        ]}
+      - {label: "FAQ", name: "faq", widget: "list", i18n: true, fields: [
+          {label: "Вопрос", name: "question", widget: "string"},
+          {label: "Ответ", name: "answer", widget: "text"}
+        ]}
+
+  - name: "cases"
+    label: "Кейсы"
+    folder: "content/cases"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Название", name: "title", widget: "string", i18n: true}
+      - {label: "Слаг", name: "slug", widget: "string"}
+      - {label: "Отрасль", name: "industry", widget: "string", i18n: true}
+      - {label: "Услуги", name: "services", widget: "list", field: {label: "Услуга", name: "service", widget: "string"}}
+      - {label: "Вызов", name: "challenge", widget: "text", i18n: true}
+      - {label: "Решение", name: "solution", widget: "text", i18n: true}
+      - {label: "Результаты", name: "results", widget: "list", fields: [
+          {label: "Метрика", name: "metric", widget: "string", i18n: true},
+          {label: "Значение", name: "value", widget: "string"},
+          {label: "Единица", name: "unit", widget: "string", i18n: true}
+        ]}
+      - {label: "Галерея", name: "gallery", widget: "list", field: {label: "Изображение", name: "image", widget: "image"}}
+      - {label: "Технологии", name: "tech_stack", widget: "list", field: {label: "Технология", name: "tech", widget: "string"}}
+      - {label: "Дата публикации", name: "publish_date", widget: "datetime"}
+      - {label: "Рекомендуемый", name: "featured", widget: "boolean", default: false}
+
+  - name: "blog"
+    label: "Блог"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string", i18n: true}
+      - {label: "Слаг", name: "slug", widget: "string"}
+      - {label: "Краткое описание", name: "excerpt", widget: "text", i18n: true}
+      - {label: "Обложка", name: "cover", widget: "image"}
+      - {label: "Контент", name: "body", widget: "markdown", i18n: true}
+      - {label: "Теги", name: "tags", widget: "list", field: {label: "Тег", name: "tag", widget: "string"}}
+      - {label: "Автор", name: "author", widget: "string"}
+      - {label: "Дата публикации", name: "publish_date", widget: "datetime"}
+
+  - name: "pricing"
+    label: "Цены"
+    folder: "content/pricing"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - {label: "Название", name: "name", widget: "string", i18n: true}
+      - {label: "Слаг", name: "slug", widget: "string"}
+      - {label: "Цена от", name: "price_from", widget: "number"}
+      - {label: "Валюта", name: "currency", widget: "select", options: ["USD", "EUR", "RUB"]}
+      - {label: "Особенности", name: "features", widget: "list", i18n: true, field: {label: "Особенность", name: "feature", widget: "string"}}
+      - {label: "Дополнения", name: "addons", widget: "list", i18n: true, fields: [
+          {label: "Название", name: "name", widget: "string"},
+          {label: "Цена", name: "price", widget: "number"}
+        ]}
+      - {label: "CTA Заметка", name: "cta_note", widget: "string", i18n: true, required: false}
+
+  - name: "settings"
+    label: "Настройки"
+    files:
+      - label: "Общие настройки"
+        name: "general"
+        file: "content/settings/general.yml"
+        fields:
+          - {label: "Название сайта", name: "site_title", widget: "string", i18n: true}
+          - {label: "Описание сайта", name: "site_description", widget: "text", i18n: true}
+          - {label: "Контакты", name: "contacts", widget: "object", fields: [
+              {label: "Email", name: "email", widget: "string"},
+              {label: "Telegram", name: "telegram", widget: "string"},
+              {label: "Телефон", name: "phone", widget: "string"}
+            ]}
+          - {label: "Социальные сети", name: "social", widget: "object", fields: [
+              {label: "Instagram", name: "instagram", widget: "string"},
+              {label: "Facebook", name: "facebook", widget: "string"},
+              {label: "VK", name: "vk", widget: "string"},
+              {label: "Telegram", name: "telegram", widget: "string"},
+              {label: "LinkedIn", name: "linkedin", widget: "string"},
+              {label: "X (Twitter)", name: "x", widget: "string"}
+            ]}
+          - {label: "Аналитика", name: "analytics", widget: "object", fields: [
+              {label: "Google Analytics ID", name: "ga_id", widget: "string"},
+              {label: "Yandex Metrica ID", name: "ym_id", widget: "string"}
+            ]}

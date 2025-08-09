@@ -1,0 +1,24 @@
+site_title:
+  ru: "REKLIX - Маркетинг и Разработка"
+  en: "REKLIX - Marketing & Development"
+
+site_description:
+  ru: "Комплексные решения в области маркетинга и разработки. Создаем успешные проекты от идеи до реализации."
+  en: "Comprehensive marketing and development solutions. We create successful projects from idea to implementation."
+
+contacts:
+  email: "hello@reklix.com"
+  telegram: "@reklix_official"
+  phone: "+7 (999) 123-45-67"
+
+social:
+  instagram: "https://instagram.com/reklix"
+  facebook: "https://facebook.com/reklix"
+  vk: "https://vk.com/reklix"
+  telegram: "https://t.me/reklix_official"
+  linkedin: "https://linkedin.com/company/reklix"
+  x: "https://x.com/reklix"
+
+analytics:
+  ga_id: "G-XXXXXXXXXX"
+  ym_id: "12345678"

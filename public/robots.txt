@@ -1,0 +1,64 @@
+# Robots.txt for REKLIX
+# https://reklix.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow specific API endpoints that should be crawled
+Allow: /api/sitemap
+Allow: /api/rss
+
+# Disallow search and filter pages to avoid duplicate content
+Disallow: /search
+Disallow: /*?*
+
+# Allow important pages
+Allow: /en/
+Allow: /ru/
+Allow: /en/services/
+Allow: /ru/services/
+Allow: /en/cases/
+Allow: /ru/cases/
+Allow: /en/blog/
+Allow: /ru/blog/
+Allow: /en/about/
+Allow: /ru/about/
+Allow: /en/contact/
+Allow: /ru/contact/
+
+# Crawl delay for different bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://reklix.com/sitemap.xml
+Sitemap: https://reklix.com/sitemap-en.xml
+Sitemap: https://reklix.com/sitemap-ru.xml
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
